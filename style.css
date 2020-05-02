@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 
+}
+body{
+    background-color: rgb(37, 19, 16);
+}
+.clearfix{
+    clear: both;
+}
+.continer{
+    width: 1000px;
+    height: 2000px;
+    margin: auto;
+    overflow: hidden;
+}
+.navbar{
+    background-color: rgba(116, 13, 13, 0.72);
+    text-align: center;  
+    padding: 10px 30px;
+    overflow: hidden;
+}
+
+.navbar ul:first-of-type li{
+    display: inline;
+    
+}
+.navbar ul:first-of-type li a{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.navbar ul:first-of-type li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgba(116, 13, 13)
+}
+.open:hover{
+    
+}
+.listinnav{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+}
+.listinnav li{
+}
+.top{
+    width: 100%;
+    height: 500px;
+    background-image: url(k.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.texttop{
+    text-align: center;
+    padding: 100px ;
+    font-size: 4em;
+    color: white;
+    background-color: rgba(116, 13, 13, 0.15);
+    height: 100%;
+}
+.titlecenter{
+    width: 100%;
+    
+}
+.titlecenter h1{
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+.center .card{
+    width: 400px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: white;
+    color: #880000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.center .card .img{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-image: url(g.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.center .card h1{
+    font-size: 35px;
+    width: 55%;
+    height: 30%;
+    text-align: center
+}
+.center .card p{
+    font-size: 20px;
+    width: 55%;
+    height: 50%;
+}
+.center .card h1,.center .card p{
+    float: right;
+    direction: rtl;
+    margin: 10px 10px 0 10px
+}
